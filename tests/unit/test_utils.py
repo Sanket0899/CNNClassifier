@@ -1,5 +1,5 @@
 import pytest
-from deepClassifier.utils import read_yaml
+from Classifier.utils import read_yaml
 from pathlib import Path
 from box import ConfigBox
 from ensure.main import EnsureError
