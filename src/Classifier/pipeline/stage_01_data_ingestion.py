@@ -11,7 +11,6 @@ def main():
     data_ingestion.unzip_and_clean()
 
 if __name__ == '__main__':
-
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         main()
